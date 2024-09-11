@@ -9,6 +9,10 @@ body {
   font-weight: 700;
 }
 
+#skills {
+  background-color: #fb8500;
+}
+
 section .resume-section {
   display: flex;
   align-items: center;
