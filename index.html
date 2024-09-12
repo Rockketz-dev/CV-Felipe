@@ -33,7 +33,10 @@
   <body id="page-top">
     <!-- Navigation-->
 
-    <nav class="navbar navbar-expand-lg border-bottom border-body fixed-top">
+    <nav
+      class="navbar navbar-expand-lg border-bottom border-body fixed-top"
+      data-bs-theme="dark"
+    >
       <div class="container">
         <a class="navbar-brand" href="#page-top">Rockketz</a>
         <button
@@ -50,9 +53,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about"
-                >Sobre Mi</a
-              >
+              <a class="nav-link" aria-current="page" href="#about">Sobre Mi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experiencia</a>
@@ -72,12 +73,12 @@
     </nav>
 
     <!-- Contenido -->
-    <div class="container">
+    <div class="container-fluid">
       <!-- Sobre Mi-->
-      <section class="resume-section text-center" id="about">
-        <div class="resume-section-content">
+      <section class="text-center" id="about">
+        <div class="container">
           <img
-            class="img-fluid rounded-circle mb-2 mt-5"
+            class="img-fluid rounded-circle mb-5"
             src="assets/img/Perfil.jpg"
             alt="Foto de Perfil Felipe Osorio"
             width="300px "
@@ -101,6 +102,9 @@
             aplicar mis habilidades creativas y técnicas en proyectos que me
             permitan aportar y desarrollarme.
           </p>
+          <button type="button" class="btn btn-warning btn-lg mb-4">
+            <em>Portafolio</em>
+          </button>
           <div class="social-icons">
             <a
               class="social-icon"
@@ -121,8 +125,8 @@
       </section>
       <hr class="m-0" />
       <!-- Experiencia Laboral -->
-      <section class="resume-section" id="experience">
-        <div class="resume-section-content">
+      <section id="experience">
+        <div class="container">
           <h2 class="mb-5">Experiencia Laboral</h2>
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
@@ -199,8 +203,8 @@
       </section>
       <hr class="m-0" />
       <!-- Educación-->
-      <section class="resume-section" id="education">
-        <div class="resume-section-content">
+      <section id="education">
+        <div class="container">
           <h2 class="mb-3">Formación Profesional</h2>
 
           <div
@@ -259,8 +263,8 @@
       <hr class="m-0" />
       <!-- Habilidades-->
 
-      <section class="resume-section" id="skills">
-        <div class="resume-section-content text-center">
+      <section id="skills">
+        <div class="container text-center">
           <h2 class="mb-5">Habilidades Laborales</h2>
           <div class="mb-3"><h3>Lenguajes de Programación</h3></div>
           <ul class="list-inline dev-icons">
@@ -419,8 +423,8 @@
 
       <hr class="m-0" />
       <!-- Intereses -->
-      <section class="resume-section" id="interests">
-        <div class="resume-section-content">
+      <section id="interests">
+        <div class="container">
           <h2 class="mb-2">Intereses</h2>
           <hr />
           <div class="row">
@@ -742,7 +746,110 @@
     </div>
 
     <footer class="container-fluid">
-      <p>Sitio Desarrollado por <em>Felipe Osorio</em></p>
+      <div class="container text-light">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-start">
+            <form class="mb-5">
+              <h3>Contacto</h3>
+              <div class="mb-2">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Correo</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="nombre@tucorreo.com"
+                />
+              </div>
+              <div class="mb-2">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Mensaje</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="deja tu mensaje aquí"
+                ></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Confirma tu mensaje</label
+                >
+              </div>
+              <button type="submit" class="btn btn-warning">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-6 col-sm-12 text-start">
+            <div class="row">
+              <div class="col-md-3 col-sm-3">
+                <img
+                  class="img-fluid rounded-circle"
+                  src="assets/img/Perfil.jpg"
+                  alt="Foto de Perfil Felipe Osorio"
+                  width="150px "
+                />
+              </div>
+              <div class="col-md-9 col-sm-9">
+                <div class="mt-3">
+                  <h3>Felipe Eduardo Osorio Benavides</h3>
+                  <p>Diseñador / Ilustrador / Desarrollador Web Front End</p>
+                  <div class="social-icons">
+                    <a
+                      class="social-icon"
+                      href="https://www.linkedin.com/in/felipe-osorio-9b53066b/"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <a
+                      class="social-icon"
+                      href="https://github.com/Rockketz-dev"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                    <a class="social-icon" href="https://x.com/ArtRockketz"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                      class="social-icon"
+                      href="https://www.facebook.com/Rockketz"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <h4>Sitio</h4>
+            <div class="menu-footer">
+              <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Educación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#interests">Intereses</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <p>Sitio Desarrollado por <em>Felipe Osorio</em></p>
+        </div>
+      </div>
     </footer>
 
     <!-- Scripts Bootstrap -->

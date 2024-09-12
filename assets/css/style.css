@@ -13,37 +13,18 @@ body {
   background-color: #fb8500;
 }
 
+#about {
+  background-image: url("/assets/img/bg-hero.jpg");
+  background-size: cover;
+}
+
 nav {
-  background-color: #fb8500;
+  background-color: #023047;
 }
 
-section .resume-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+section {
   padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
-}
-
-section.resume-section .resume-section-content {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-}
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
+  padding-bottom: 10rem;
 }
 
 .social-icons .social-icon {
@@ -52,17 +33,25 @@ section.resume-section .resume-section-content {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #023047;
+  background-color: #fb8500;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  text-decoration: none;
 }
-.social-icons .social-icon:last-child {
-  margin-right: 0;
-}
-.social-icons .social-icon:hover {
+
+footer .social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
   background-color: #fb8500;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .dev-icons {
@@ -70,12 +59,20 @@ section.resume-section .resume-section-content {
 }
 
 footer {
-  height: 200px;
   background-color: #023047;
   color: aliceblue;
   text-align: center;
   padding-left: 3rem;
   padding-right: 3rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 5rem;
+}
+.menu-footer a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu-footer a :hover {
+  color: #fb8500;
+  text-decoration: none;
 }
