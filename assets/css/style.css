@@ -19,7 +19,7 @@ body {
 }
 
 #about {
-  background-image: url("/assets/img/bg-hero.jpg");
+  background-image: url("./assets/img/bg-hero.jpg");
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
