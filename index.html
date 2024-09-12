@@ -65,6 +65,9 @@
               <a class="nav-link" href="#skills">Habilidades</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#interests">Intereses</a>
             </li>
           </ul>
@@ -127,7 +130,7 @@
       <!-- Experiencia Laboral -->
       <section id="experience">
         <div class="container">
-          <h2 class="mb-5">Experiencia Laboral</h2>
+          <h2 class="mb-5 titulos">Experiencia Laboral</h2>
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
@@ -205,57 +208,138 @@
       <!-- Educación-->
       <section id="education">
         <div class="container">
-          <h2 class="mb-3">Formación Profesional</h2>
-
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-2"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Academia Desafío Latam</h3>
-              <p>Desarrollo Web Front End</p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary"
-                >Julio 2024 - Actualmente Cursando</span
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  <h2 class="titulos">Formación Profesional</h2>
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
               >
-            </div>
-          </div>
+                <div class="accordion-body">
+                  <div
+                    class="d-flex flex-column flex-md-row justify-content-between mb-2"
+                  >
+                    <div class="text-center mx-3">
+                      <img
+                        src="./assets/img/desafio.jpg"
+                        alt="Desafio Latam"
+                        class="rounded img-fluid"
+                        width="100px"
+                      />
+                    </div>
 
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-4"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">
-                Instituto Profecional Duoc UC <em>- Sede Viña del Mar</em>
-              </h3>
-              <p>Diseño Gráfico Profesional</p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Marzo 2009 - Julio 2015</span>
-            </div>
-          </div>
-          <hr />
-          <h2 class="mb-3">Formación Educacional</h2>
+                    <div class="flex-grow-1">
+                      <h3 class="mb-0">Academia Desafío Latam</h3>
+                      <p>Desarrollo Web Front End</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-primary"
+                        >Julio 2024 - Actualmente Cursando</span
+                      >
+                    </div>
+                  </div>
 
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Colegio "Alcalde Pedro Urbina"</h3>
-              <div class="mb-2">Educación Media <em>(2do a 4to Medio)</em></div>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">2005 - 2008</span>
-            </div>
-          </div>
-
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Colegio "El Salvador"</h3>
-              <div class="mb-3">
-                Educación Básica y Media <em>(hasta 2do Medio)</em>
+                  <div
+                    class="d-flex flex-column flex-md-row justify-content-between mb-1"
+                  >
+                    <div class="text-center mx-3">
+                      <img
+                        src="./assets/img/duoc.jpg"
+                        alt="DuocUC"
+                        class="rounded img-fluid"
+                        width="100px"
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <h3 class="mb-0">
+                        Instituto Profecional Duoc UC
+                        <em>- Sede Viña del Mar</em>
+                      </h3>
+                      <p>Diseño Gráfico Profesional</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-primary">Marzo 2009 - Julio 2015</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">1996 - 2005</span>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  <h2 class="titulos">Formación Educacional</h2>
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <div
+                    class="d-flex flex-column flex-md-row justify-content-between mb-2"
+                  >
+                    <div class="text-center mx-3">
+                      <img
+                        src="./assets/img/capu.jpg"
+                        alt="CAPU"
+                        class="rounded img-fluid"
+                        width="100px"
+                      />
+                    </div>
+
+                    <div class="flex-grow-1">
+                      <h3 class="mb-0">Colegio "Alcalde Pedro Urbina"</h3>
+                      <div class="mb-2">
+                        Educación Media <em>(2do a 4to Medio)</em>
+                      </div>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-primary">2005 - 2008</span>
+                    </div>
+                  </div>
+
+                  <div
+                    class="d-flex flex-column flex-md-row justify-content-between mb-1"
+                  >
+                    <div class="text-center mx-3">
+                      <img
+                        src="./assets/img/salvador.jpg"
+                        alt="Salvador"
+                        class="rounded img-fluid"
+                        width="100px"
+                      />
+                    </div>
+
+                    <div class="flex-grow-1">
+                      <h3 class="mb-0">Colegio "El Salvador"</h3>
+                      <div class="mb-3">
+                        Educación Básica y Media <em>(hasta 2do Medio)</em>
+                      </div>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="text-primary">1996 - 2005</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -264,154 +348,156 @@
       <!-- Habilidades-->
 
       <section id="skills">
-        <div class="container text-center">
-          <h2 class="mb-5">Habilidades Laborales</h2>
-          <div class="mb-3"><h3>Lenguajes de Programación</h3></div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-            <li class="list-inline-item">
-              <i class="fab fa-brands fa-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-brands fa-github"></i>
-            </li>
-          </ul>
-          <div class="mb-3"><h3>Programas de Diseño</h3></div>
-
+        <div class="container">
+          <h2 class="mb-5 titulos">Habilidades Laborales</h2>
+          <hr />
           <div class="row">
-            <div class="col-sm-6 col-md-4 mb-3">
-              <div class="card">
-                <img
-                  src="./assets/img/adobe.jpg"
-                  class="card-img-top"
-                  alt="Adobe"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Suit Adobe</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
+            <div class="col-md-4">
+              <div class="mb-3"><h3>Lenguajes de Programación</h3></div>
+              <ul class="list-inline dev-icons">
+                <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                <li class="list-inline-item">
+                  <i class="fab fa-css3-alt"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-wordpress"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-brands fa-bootstrap"></i>
+                </li>
+                <li class="list-inline-item">
+                  <i class="fab fa-brands fa-github"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <div class="mb-3"><h3>Programas de Diseño</h3></div>
 
-                  <div class="mb-3">Photoshop</div>
+              <div class="row">
+                <div class="col-sm-6 col-md-4 mb-3">
+                  <div class="card">
+                    <img
+                      src="./assets/img/adobe.jpg"
+                      class="card-img-top"
+                      alt="Adobe"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Suit Adobe</h5>
+                      <hr />
 
-                  <div
-                    class="progress"
-                    role="progressbar"
-                    aria-label="Animated striped example"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
-                      style="width: 75%"
-                    >
-                      75%
-                    </div>
-                  </div>
+                      <div class="mb-3">Photoshop</div>
 
-                  <div class="mb-3">Illustrator</div>
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Animated striped example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                          style="width: 75%"
+                        >
+                          75%
+                        </div>
+                      </div>
 
-                  <div
-                    class="progress"
-                    role="progressbar"
-                    aria-label="Animated striped example"
-                    aria-valuenow="85"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
-                      style="width: 85%"
-                    >
-                      85%
-                    </div>
-                  </div>
+                      <div class="mb-2 mt-1">Illustrator</div>
 
-                  <div class="mb-3">inDesign</div>
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Animated striped example"
+                        aria-valuenow="85"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                          style="width: 85%"
+                        >
+                          85%
+                        </div>
+                      </div>
 
-                  <div
-                    class="progress"
-                    role="progressbar"
-                    aria-label="Animated striped example"
-                    aria-valuenow="60"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
-                      style="width: 60%"
-                    >
-                      60%
+                      <div class="mb-2 mt-1">inDesign</div>
+
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Animated striped example"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                          style="width: 60%"
+                        >
+                          60%
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 mb-3">
-              <div class="card">
-                <img
-                  src="./assets/img/affinity.jpg"
-                  class="card-img-top"
-                  alt="Affinity"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Suit Affinity</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <div class="mb-3">Affinity suit</div>
+                <div class="col-sm-6 col-md-4 mb-3">
+                  <div class="card">
+                    <img
+                      src="./assets/img/affinity.jpg"
+                      class="card-img-top"
+                      alt="Affinity"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Suit Affinity</h5>
+                      <hr />
+                      <div class="mb-3">Affinity suit</div>
 
-                  <div
-                    class="progress"
-                    role="progressbar"
-                    aria-label="Animated striped example"
-                    aria-valuenow="60"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
-                      style="width: 60%"
-                    >
-                      60%
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Animated striped example"
+                        aria-valuenow="60"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                          style="width: 60%"
+                        >
+                          60%
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4 mb-3">
-              <div class="card">
-                <img
-                  src="./assets/img/filmora.jpg"
-                  class="card-img-top"
-                  alt="Filmora"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Wondershare Filmora</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <div class="mb-3">Wondershare Filmora</div>
+                <div class="col-sm-12 col-md-4 mb-3">
+                  <div class="card">
+                    <img
+                      src="./assets/img/filmora.jpg"
+                      class="card-img-top"
+                      alt="Filmora"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Wondershare Filmora</h5>
+                      <hr />
+                      <div class="mb-3">Wondershare Filmora</div>
 
-                  <div
-                    class="progress"
-                    role="progressbar"
-                    aria-label="Animated striped example"
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <div
-                      class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
-                      style="width: 50%"
-                    >
-                      50%
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Animated striped example"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                          style="width: 50%"
+                        >
+                          50%
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -422,10 +508,137 @@
       </section>
 
       <hr class="m-0" />
+      <!-- Contacto -->
+      <section id="contacto">
+        <div class="container">
+          <h2 class="mb-2 titulos">Contacto</h2>
+          <p>Puedes contactarme con mis datos o puedes enviarme un mensaje</p>
+          <hr />
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4">
+              <div class="col-lg-5">
+                <div class="info-wrap">
+                  <div
+                    class="info-item d-flex"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <i class="bi bi-geo-alt flex-shrink-0"></i>
+                    <div>
+                      <h3>Dirección</h3>
+                      <p>Gulutren #102, O'Higgins, Peumo</p>
+                    </div>
+                  </div>
+                  <!-- End Info Item -->
+
+                  <div
+                    class="info-item d-flex"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="bi bi-telephone flex-shrink-0"></i>
+                    <div>
+                      <h3>Teléfono</h3>
+                      <p>+56 9 9226 8906</p>
+                    </div>
+                  </div>
+                  <!-- End Info Item -->
+
+                  <div
+                    class="info-item d-flex"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <div>
+                      <h3>Correo</h3>
+                      <p>f.osorio@outlook.com</p>
+                    </div>
+                  </div>
+                  <!-- End Info Item -->
+
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.747360325786!2d-71.17345452348512!3d-34.38234534584224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96637f73867df6fd%3A0x157d2d68bb962490!2sGulutren%2C%20Peumo%2C%20O&#39;Higgins!5e0!3m2!1ses!2scl!4v1726117685409!5m2!1ses!2scl"
+                    frameborder="0"
+                    style="border: 0; width: 100%; height: 270px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="col-lg-7">
+                <form
+                  action="forms/contact.php"
+                  method="post"
+                  class="php-email-form"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <div class="row gy-4">
+                    <div class="col-md-6">
+                      <label for="name-field" class="pb-2">Tu Nombre</label>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name-field"
+                        class="form-control"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="email-field" class="pb-2">Correo</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email-field"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-md-12">
+                      <label for="subject-field" class="pb-2">Asunto</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        id="subject-field"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-md-12">
+                      <label for="message-field" class="pb-2">Mensaje</label>
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="10"
+                        id="message-field"
+                        required=""
+                      ></textarea>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                      <button class="btn btn-warning btn-lg" type="submit">
+                        <em>Enviar</em>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- End Contact Form -->
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Intereses -->
       <section id="interests">
         <div class="container">
-          <h2 class="mb-2">Intereses</h2>
+          <h2 class="mb-2 titulos">Intereses</h2>
           <hr />
           <div class="row">
             <div class="col-sm-6 col-md-3 mb-3">
@@ -750,7 +963,7 @@
         <div class="row">
           <div class="col-md-6 col-sm-12 text-start">
             <form class="mb-5">
-              <h3>Contacto</h3>
+              <h3 class="titulos">Contacto</h3>
               <div class="mb-2">
                 <label for="exampleInputEmail1" class="form-label"
                   >Correo</label
@@ -762,6 +975,17 @@
                   aria-describedby="emailHelp"
                   placeholder="nombre@tucorreo.com"
                 />
+              </div>
+              <div class="mb-2">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Asunto</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="1"
+                  placeholder="Asunto"
+                ></textarea>
               </div>
               <div class="mb-2">
                 <label for="exampleFormControlTextarea1" class="form-label"
@@ -825,7 +1049,7 @@
               </div>
             </div>
             <hr />
-            <h4>Sitio</h4>
+            <h4 class="titulos">Sitio</h4>
             <div class="menu-footer">
               <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">

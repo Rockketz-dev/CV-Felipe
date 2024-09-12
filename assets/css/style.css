@@ -9,12 +9,19 @@ body {
   font-weight: 700;
 }
 
-#skills {
-  background-color: #fb8500;
+.titulos {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  color: #fb8500;
 }
 
 #about {
   background-image: url("/assets/img/bg-hero.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 
